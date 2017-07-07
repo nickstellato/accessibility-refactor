@@ -11,6 +11,14 @@ form {
   display: inline-block;
 }
 
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  display: none;
+}
+
 .container{
   text-align: center;
 }
