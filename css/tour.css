@@ -14,3 +14,12 @@ pre {
   height: 0%;
   padding: 10px;
 }
+
+table caption {
+  display: none;
+}
+
+table td {
+  padding-right: 10px;
+}
+
