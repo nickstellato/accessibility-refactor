@@ -17,10 +17,12 @@ body {
 a {
   text-decoration: none;
   color: #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #e8aeb7;
+  border-bottom: 1px solid #e8aeb7;
 }
 
 /* Section Styles */
@@ -59,7 +61,8 @@ a:hover {
 }
 
 .nav a:hover {
-  color: white
+  color: #e8aeb7;
+  border-bottom: 1px solid #e8aeb7;
 }
 
 header {
@@ -116,7 +119,6 @@ header p {
 .card:hover {
   border-color: #96731A;
 }
-
 
 .photo{
   display: block;
