@@ -64,7 +64,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -89,6 +89,21 @@ header .name{
   padding: 20px;
   text-transform: uppercase;
   color: #781125
+}
+
+header h1 {
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 72px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+header p {
+  color: #6D1B27;
+  font-size: 36px;
+  margin-top: 25px;
 }
 
 .card {
