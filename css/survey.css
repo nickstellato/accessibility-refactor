@@ -22,7 +22,8 @@ fieldset {
   border: none;
 }
 
-fieldset legend {
+fieldset legend,
+#signup {
   display: none;
 }
 
