@@ -36,6 +36,14 @@ fieldset legend,
 
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+label:active {
+  color: #ffffff;
+  background-color: #000000;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
