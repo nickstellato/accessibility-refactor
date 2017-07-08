@@ -33,10 +33,14 @@
               <fieldset>
                 <legend>Choose your favorite band member</legend>
                 <p>Who is your favorite band member:</p>
-                <input type="radio" name="res" value="John"> John
-                <input type="radio" name="res" value="Hazzard"> Hazzard
-                <input type="radio" name="res" value="Bob"> Bob
-                <input type="radio" name="res" value="Sally"> Sally
+                <input id="john" type="radio" name="res" value="John">
+                <label for="john">John</label>
+                <input id="hazzrd" type="radio" name="res" value="Hazzard">
+                <label for="hazzard">Hazzard</label> 
+                <input id="bob" type="radio" name="res" value="Bob">
+                <label for="bob">Bob</label>
+                <input id="sally" type="radio" name="res" value="Sally">
+                <label for="sally">Sally</label>
               </fieldset>
 
               <fieldset>
@@ -73,9 +77,12 @@
               <form class="newsletter">
                 <fieldset>
                   <legend>Send the band your name and email address</legend>
-                  <p>Name: <input type ="text" name="textfield"></p>
-                  <p>Email: <input type ="email" name="textfield"></p>
-                  <p>Retype Email: <input type ="email" name="textfield"></p>
+                  <label for="name">Name:</label>
+                  <input id="name" type ="text" name="textfield"></p>
+                  <label for="email">Email:</label>
+                  <input id="email" type ="email" name="textfield"></p>
+                  <label for="retype-email">Retype Email:</label>
+                  <input id="retype-email" type ="email" name="textfield"></p>
                   <button type="submit">Sign Up</button>
                 </fieldset>
               </form>
