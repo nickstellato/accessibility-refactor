@@ -11,6 +11,13 @@ form {
   display: inline-block;
 }
 
+select,
+textarea,
+form p{
+  margin-top: 10px;
+  display: block;
+}
+
 fieldset {
   border: none;
 }
